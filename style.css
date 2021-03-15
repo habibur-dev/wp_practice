@@ -96,10 +96,81 @@ article.post:last-of-type{
     padding-right: 10px;
     border-right: 1px dotted #bbb;
 }
+.site-footer nav.site-nav {
+    margin-top: 30px;
+}
+.site-header{
+    margin-bottom: 30px;
+}
 .site-footer nav ul li:last-of-type{
     border: none;
 }
 
 article.page h2{
     font-size: 300%;
+}
+
+/* info box */
+div.info-box{
+    width: 30%;
+    float: right;
+    margin: 0 0 30px 30px;
+    padding: 20px;
+    background-color: #eee;
+}
+div.info-box h4{
+    margin-bottom: 6px;
+}
+div.info-box p{
+    font-size: 85%;
+}
+
+/* children link */
+.children-links{
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited{
+    text-decoration: none;
+}
+
+.children-links li{
+    margin-right: 20px;
+}
+.children-links .parent-link{
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited{
+    color: #333;
+}
+
+.children-links .current-page-item a:link,
+.children-links .current-page-item a:visited{
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    cursor: default;
+}
+
+/* post meta styles */
+.post h2{
+    margin-bottom: 0;
+}
+
+p.post-info{
+    font-size: 87%;
+    columns: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited{
+    color: #999
 }
