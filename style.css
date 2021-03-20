@@ -110,6 +110,15 @@ article.page h2{
     font-size: 300%;
 }
 
+/* aside post styles */
+article.post-aside, article.post-link{
+    font-size: 125%;
+    background: #FFF5CB;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
 /* info box */
 div.info-box{
     width: 30%;
@@ -173,4 +182,91 @@ p.post-info{
 p.post-info a:link,
 p.post-info a:visited{
     color: #999
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.has-thumbnail{
+    position: relative;
+    padding-left: 200px;
+}
+
+.post-thumbnail{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-search{
+    float: right;
+}
+
+#search-btn{
+    background: #006ec3;
+    color: #fff;
+    padding: 5px 14px;
+    border: none; 
+}
+#search-txt{
+    padding: 3px 0;
+}
+
+/* aside post styles */
+.aside-meta{
+    font-size: 68%;
+    margin: 0;
+    color: #777;
+}
+
+/* link post format */ 
+article.post-link{
+    background: #E0EBFF;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+/* gallery post format */
+article.post-gallery{
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article.post-gallery h2{
+    text-align: center;
+}
+article.post-gallery img{
+    border: none !important;
+}
+
+.site-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+/* Main column */
+.main-column{
+    width: 66%;
+}
+
+/* Side column */
+.secondary-colmun{
+    width: 30%;
+}
+
+.footer-widgets{
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: space-around;
+}
+
+
+/* footer widget area */
+.footer-widget-area{
+    width: 25%;
+    box-sizing: border-box;
 }
