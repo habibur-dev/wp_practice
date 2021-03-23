@@ -377,3 +377,61 @@ article.post-gallery img{
 .footer-callout-text p{
     font-size: .9rem;
 }
+
+/* about author styles */
+.about-author{
+    background: #ededed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-author .about-author-image{
+    width: 28%;
+    position: relative;
+}
+.about-author .about-author-image img{
+    display: block;
+}
+.about-author .about-author-image p{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+    background: rgba(0, 0, 0, .5);
+    padding: 4px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.85);
+    color: #fff;
+    margin: 0;
+}
+.about-author .about-author-text{
+    width: 68%;
+    font-size: 90%;
+}
+
+.other-posts-by {
+	background-color: #FFF;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.other-posts-by ul {
+	margin: 0;
+	padding: 0;
+}
+
+.other-posts-by li {
+	list-style: none;
+	border-bottom: 1px dotted #DDD;
+}
+
+.other-posts-by li:last-child {
+	border-bottom: none;
+}
+
+.other-posts-by a {
+	text-decoration: none;
+	display: block;
+	padding: 3px 0;
+}
