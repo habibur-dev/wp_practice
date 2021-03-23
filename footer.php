@@ -2,6 +2,20 @@
 <!-- Site footer -->
 <footer class="site-footer">
 
+    <?php if(get_theme_mod('wp_practice_footer_callout_display') == 'Yes') : ?>
+    <div class="footer-callout clearfix">
+        <div class="footer-callout-image">
+            <img src="<?php echo wp_get_attachment_url(get_theme_mod('wp_practice_footer_callout_image')); ?>" alt="">
+        </div>
+
+        <div class="footer-callout-text">
+            <h2><a href="<?php echo get_permalink(get_theme_mod('wp_practice_footer_callout_link')); ?>"><?php echo get_theme_mod('wp_practice_footer_callout_headline'); ?></a></h2>
+            <p><?php echo wpautop(get_theme_mod('wp_practice_footer_callout_text')); ?></p>
+        </div>
+    </div>
+
+    <?php endif; ?>
+
     <div class="footer-widgets clearfix">
 
         <?php if(is_active_sidebar('footer1')): ?>
