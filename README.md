@@ -3,6 +3,9 @@
 
 This is a wordpress theme development practice example.
 
+## Theme Look
+![](screenshot.png)
+
 ## Install in local environment
 
 Use below comand to clone.
