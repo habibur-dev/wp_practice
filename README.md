@@ -1,17 +1,17 @@
 <!-- Heading -->
 # WP Practice
----
+
 This is a wordpress theme development practice example.
 
 ## Install in local environment
----
+
 Use below comand to clone.
 ```
 git clone https://github.com/habibur-dev/wp_practice.git
 ```
 
 ## Used Features
----
+
 
 1. Pages
    1. page.php
