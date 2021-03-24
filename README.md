@@ -12,6 +12,7 @@ Use below comand to clone.
 ```
 git clone https://github.com/habibur-dev/wp_practice.git
 ```
+Import demo content from "Demo Content" folder
 
 ## Used Features
 
