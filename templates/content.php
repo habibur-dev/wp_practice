@@ -1,4 +1,4 @@
-<article class="post <?php if(has_post_thumbnail()){?>has-thumbnail <?php } ?>">
+<article id="post-<?php the_ID(); ?>" class="post <?php if(has_post_thumbnail()){?>has-thumbnail <?php } ?> <?php post_class(); ?>">
 
         <div class="post-thumbnail">
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('small-thumbnail'); ?></a>
@@ -23,7 +23,7 @@
         </p>
         
         <p>
-            <?php echo get_the_excerpt(); ?>
-            <a href="<?php the_permalink(); ?>">Read More&raquo;</a>
+            <p class="post-excerpts"><?php echo get_the_excerpt(); ?></p>
+            <a href="<?php the_permalink(); ?>" class="cat-btn read-more">Read More&raquo;</a>
         </p>
     </article>

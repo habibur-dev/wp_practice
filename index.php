@@ -13,6 +13,8 @@ get_header(); ?>
 
             endwhile;
 
+            echo paginate_links();
+
         else:
             echo "No posts found!";
 

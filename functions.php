@@ -237,6 +237,16 @@ function wp_practice_footer_callout($wp_customize){
         'type'        => 'textarea',
     )));
 
+    $wp_customize->add_setting('wp_practice_footer_callout_link');
+
+    $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'wp_practice_footer_callout_link_control', array(
+        'label'       => 'URL',
+        'description' => 'Select page where want to link.',
+        'section'     => 'wp_practice_footer_callout_section',
+        'settings'    => 'wp_practice_footer_callout_link',
+        'type'        => 'dropdown-pages',
+    )));
+
     $wp_customize->add_setting('wp_practice_footer_callout_image');
 
     $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'wp_practice_footer_callout_image_control', array(

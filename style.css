@@ -21,11 +21,17 @@ a:link,
 a:visited{
     color: #006ec3;
 }
+a.cat-btn.read-more {
+    padding: 5px 15px;
+}
 
 p{
     line-height: 1.5em;
 }
-
+ul{
+    list-style: none;
+    padding: 0;
+}
 div.container{
     max-width: 920px;
     margin: 0 auto;
@@ -261,7 +267,7 @@ article.post-gallery img{
 
 .footer-widgets{
     display: flex;
-    flex-grow: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -270,6 +276,12 @@ article.post-gallery img{
 .footer-widget-area{
     width: 25%;
     box-sizing: border-box;
+}
+.footer-widgets{
+    margin: 0 -20px;
+}
+.footer-widgets .footer-widget-area {
+    padding: 0 20px;
 }
 
 
@@ -434,4 +446,7 @@ article.post-gallery img{
 	text-decoration: none;
 	display: block;
 	padding: 3px 0;
+}
+p.post-excerpts {
+    margin-bottom: 0;
 }
